@@ -17,12 +17,12 @@ if __name__ == "__main__":
     # Data pull frequency by hour
     frequency = 24
     # Time horizon for data pull, remember limited to 500 API calls a day
-    start_date = '11-JAN-2020'
-    end_date = '11-JAN-2021'
+    start_date = '01-MAY-2011'
+    end_date = '31-MAR-2020'
     # Input API key here:
-    api_key = 'xxxxxxxxxxxxxxxxxxxxx'
+    api_key = 'xxxxxxxxxxxxxxxxxxxx'
     # Location list: input can be city name, zip code, state, country, etc
-    location_list = ['96789','96822']
+    location_list = ['Manoa']
 
     model = WorldWeatherOnline(frequency, start_date, end_date, api_key, location_list)
     model.call_api()
