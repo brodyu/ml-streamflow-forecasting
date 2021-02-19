@@ -20,7 +20,7 @@ if __name__ == "__main__":
     start_date = '11-JAN-2020'
     end_date = '11-JAN-2021'
     # Input API key here:
-    api_key = '3e46143dc0e74b9eb56183102211902'
+    api_key = 'xxxxxxxxxxxxxxxxxxxxx'
     # Location list: input can be city name, zip code, state, country, etc
     location_list = ['96789','96822']
 
