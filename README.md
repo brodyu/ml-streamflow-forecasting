@@ -13,5 +13,8 @@ To model the discharge of Manoa stream, weather data was aggregated using the we
 ## Models
 Three models were trained, tested, and tuned for optimal results. The deep learning models we used were:
 - Long Short-term Memory (LSTM)
+  ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/lossgraphs1.jpg)
 - Bidirectional LSTM
+  ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/lossgraphs2.jpg)
 - Gated Recurrent Unit (GRU)
+  ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/lossgraphs3.jpg)
