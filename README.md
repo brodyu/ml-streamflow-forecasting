@@ -8,4 +8,10 @@ Manoa stream is the primary stream that flows through the town of Manoa and the 
 
 ### Data 
 
-To model the discharge of Manoa stream, weather data was aggregated using the weather-api script in this repository. Additional streamflow data from Waihi and Waiakeakua stream were joined. Both Waihi and Waiakeakua streams flow into Manoa stream at the top of Manoa town. The data is cleansed for outliers and missing values before being normalized. 
+To model the discharge of Manoa stream, weather data was aggregated using the weather-api script in this repository. Additional streamflow data from Waihi and Waiakeakua stream were joined. Both Waihi and Waiakeakua streams flow into Manoa stream at the top of Manoa town. The data is cleansed for outliers and missing values before being normalized and transformed for time series forecasting. 
+
+## Models
+Three models were trained, tested, and tuned for optimal results. The deep learning models we used were:
+- Long Short-term Memory (LSTM)
+- Bidirectional LSTM
+- Gated Recurrent Unit (GRU)
