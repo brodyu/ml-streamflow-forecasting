@@ -19,6 +19,11 @@ Three models were trained, tested, and tuned for optimal results. The deep learn
 ### Results
 After tuning the model parameters for optimal results, we found the Gated Recurrent Unit (GRU) model performed the best in terms of minimizing loss and reducing overfitting. Below are the loss, actual forecast, and scatterpolt graphs for the GRU model. 
 
+More model info: 
+- 5 backward steps
+- each model trained on 64 units and 25 epochs
+- GRU model acheieved a 8.253 RMSE on testing data
+
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/lossgraphs3.jpg)
 
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/actual-forecastplot3.jpg)
