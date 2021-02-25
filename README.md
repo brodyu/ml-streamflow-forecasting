@@ -29,3 +29,7 @@ More model info:
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/actual-forecastplot3.jpg)
 
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/scatterplot3.jpg)
+
+## Palolo Stream
+
+## Makiki Stream
