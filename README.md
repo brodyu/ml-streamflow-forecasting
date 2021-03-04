@@ -1,14 +1,12 @@
-# Streamflow Forecasting with Deep Learning
+# Streamflow Forecasting Using Recurrent Neural Networks and Transfer Learning
 
-This is a data research project that leverages deep learning to accurately predict daily streamflow discharge of various streams on Oahu.
+Brody Uehara (1), Trista McKenzie (2), Henrietta Dulai (2)
 
-## Manoa Stream
+1 Department of Information and Computer Science, University of Hawaiʻi at Mānoa, Honolulu, HI, 96822, USA
+2 Department of Earth Science, University of Hawaiʻi at Mānoa, Honolulu, HI, 96822, USA
 
-Manoa stream is the primary stream that flows through the town of Manoa and the University of Hawaii's main campus. The task of modeling Manoa stream's discharge is of primary concern due to previous flood history in the Manoa area. On October 30, 2004, Manoa stream overflowed causing millions of dollars in damanges to residential homes and educational buildings. With the addition of climate change, water levels on the river will become more variable. 
-
-### Data 
-
-To model the discharge of Manoa stream, weather data was aggregated using the weather-api script in this repository. Additional streamflow data from Waihi and Waiakeakua stream were joined. Both Waihi and Waiakeakua streams flow into Manoa stream at the top of Manoa town. The data is cleansed for outliers and missing values before being normalized and transformed for time series forecasting. 
+## Abstract
+Many streams across Hawaiʻi lack stream discharge monitoring due to technical and financial constraints. Yet, stream discharge information is critical for island water budgets, understanding pollution transport, and studying stream ecosystems. Within the field of artificial intelligence, deep learning methods have become a popular tool for forecasting and modeling these natural processes. Deep learning methods allow us to estimate the discharge of streams that lack gages and corresponding data. In this work, we implement and test several variations of recurrent neural networks to predict stream discharge on the island of Oʻahu, Hawaiʻi. Recurrent neural networks were selected based on their advantages over other data-driven artificial neural networks and statistical models. Each model was fed observed precipitation data along with other meteorological data such as temperature and humidity in combination with existing stream discharge records. These models were used to forecast the daily streamflow discharge of Mānoa, Makiki, and Pālolo Streams. Our results demonstrate that deep learning can be successfully used to predict stream discharge in tropical island settings. Modeling the streamflows of Mānoa, Makiki, and Pālolo Streams will serve as the basis for transfer-learning techniques for other streams that lack credible stream discharge records, providing vital stream discharge information for these locations and proof of concept for locations beyond Oʻahu. 
 
 ### Models
 Three models were trained, tested, and tuned for optimal results. The deep learning models we used were:
@@ -29,7 +27,3 @@ More model info:
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/actual-forecastplot3.jpg)
 
 ![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/scatterplot3.jpg)
-
-## Palolo Stream
-
-## Makiki Stream
