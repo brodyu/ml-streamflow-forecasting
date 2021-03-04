@@ -3,6 +3,7 @@
 Brody Uehara (1), Trista McKenzie (2), Henrietta Dulai (2)
 
 1 Department of Information and Computer Science, University of Hawaiʻi at Mānoa, Honolulu, HI, 96822, USA
+
 2 Department of Earth Science, University of Hawaiʻi at Mānoa, Honolulu, HI, 96822, USA
 
 ## Abstract
