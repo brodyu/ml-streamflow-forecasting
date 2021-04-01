@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # Input API key here:
     api_key = 'xxxxxxxxxxxxxxxxxxxx'
     # Location list: input can be city name, zip code, state, country, etc
-    location_list = ['Manoa']
+    location_list = ['96821']
 
     model = WorldWeatherOnline(frequency, start_date, end_date, api_key, location_list)
     model.call_api()
