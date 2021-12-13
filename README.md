@@ -17,8 +17,8 @@ More model info:
 - each model trained on 64 units and 25 epochs
 - GRU model acheieved a 8.253 RMSE on testing data
 
-![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/lossgraphs3.jpg)
+![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/visuals/lossgraphs3.jpg)
 
-![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/actual-forecastplot3.jpg)
+![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/visuals/actual-forecastplot3.jpg)
 
-![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/reduced_visuals/scatterplot3.jpg)
+![alt text](https://github.com/brodyu/streamflow-forecasting-deep-learning/blob/main/visuals/scatterplot3.jpg)
