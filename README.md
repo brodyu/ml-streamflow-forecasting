@@ -2,9 +2,7 @@
 
 ## Authors:
 
-- Brody Uehara<sup>1</sup>
-- Trista McKenzie<sup>2</sup>
-- Henrietta Dulai<sup>2</sup>
+Brody Uehara<sup>1</sup>, Trista McKenzie<sup>2</sup>, Henrietta Dulai<sup>2</sup>
 
 ## Affiliations:
 
