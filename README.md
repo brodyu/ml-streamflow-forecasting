@@ -51,9 +51,9 @@ The LSTM model exhibited robust performance in forecasting streamflow discharge,
 
 ## 3.1 Statistical Results
 
-For the Mānoa stream, the model achieved a Test Root Mean Square Error (RMSE) of 0.107 and a coefficient of determination (R\^2) of 0.54. The RMSE value indicates the standard deviation of the residuals (prediction errors). A lower RMSE value indicates a better fit to the data. In this context, an RMSE of 0.107 means that the model's predictions are, on average, approximately 0.107 units away from the actual observed values.
+For the Mānoa stream, the model achieved a Test Root Mean Square Error (RMSE) of 0.107 and a coefficient of determination (R<sup>2</sup>) of 0.54. The RMSE value indicates the standard deviation of the residuals (prediction errors). A lower RMSE value indicates a better fit to the data. In this context, an RMSE of 0.107 means that the model's predictions are, on average, approximately 0.107 units away from the actual observed values.
 
-The R\^2 value, also known as the coefficient of determination, measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s). An R\^2 of 0.54 means that 54% of the variability in the streamflow can be explained by our model. This is a moderate level of predictive power.
+The R<sup>2</sup> value, also known as the coefficient of determination, measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s). An R<sup>2</sup> of 0.54 means that 54% of the variability in the streamflow can be explained by our model. This is a moderate level of predictive power.
 
 For the Palolo stream, the model achieved a Test RMSE of 0.145. This higher RMSE value compared to the Mānoa stream indicates that the model's predictions for the Palolo stream are, on average, approximately 0.145 units away from the actual observed values. This suggests that the model's predictions for the Palolo stream are slightly less accurate than for the Mānoa stream.
 
