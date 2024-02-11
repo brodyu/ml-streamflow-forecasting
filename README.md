@@ -27,11 +27,13 @@ Data for the Mānoa Stream, including streamflow levels and meteorological varia
 
 We trained several RNN variants, including LSTMs, Bidirectional LSTMs, and GRUs, evaluating their performance in forecasting daily streamflow discharge. The training process involved optimizing model parameters on a validation dataset to minimize prediction errors.
 
+![Actual vs. Forecast Scatterplot](visuals/scatter_new.jpeg)
+
+![Actual vs. Forecast](visuals/actual-vs-forecast_new.jpeg)
+
 ### 2.3 Transfer Learning Application
 
 The best-performing model, identified as the regular LSTM, was then applied to predict the streamflow of Palolo and Makiki Streams using the learned weights from the Mānoa Stream model, demonstrating the transfer learning approach's efficacy.
-
-![Actual vs. Forecast Scatterplot](visuals/scatter_new.jpeg)
 
 ## 3. Results
 
