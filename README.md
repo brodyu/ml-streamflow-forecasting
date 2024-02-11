@@ -31,6 +31,8 @@ We trained several RNN variants, including LSTMs, Bidirectional LSTMs, and GRUs,
 
 The best-performing model, identified as the regular LSTM, was then applied to predict the streamflow of Palolo and Makiki Streams using the learned weights from the Mānoa Stream model, demonstrating the transfer learning approach's efficacy.
 
+![Actual vs. Forecast Scatterplot](visuals/scatter_new.jpeg)
+
 ## 3. Results
 
 The LSTM model exhibited robust performance in forecasting streamflow discharge, capturing the seasonal variability and peak rainfall events. The application of the model to Palolo and Makiki Streams using transfer learning showed similar predictive accuracy, validating the approach for streams lacking direct discharge data.
@@ -54,5 +56,3 @@ This project was supported by the Hawaiʻi EPSCoR Program under National Science
 **Disclaimer:**
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
-
-
