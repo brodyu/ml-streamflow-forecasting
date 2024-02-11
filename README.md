@@ -29,8 +29,8 @@ We trained several RNN variants, including LSTMs, Bidirectional LSTMs, and GRUs,
 
 <table>
   <tr>
-    <td> <img src="visuals/scatter_new.jpeg" style="width: 100%;" /> </td>
-    <td> <img src="visuals/actual-vs-forecast_new.jpeg" style="width: 100%;" /> </td>
+    <td> <img src="visuals/manoa_scatterplot.jpeg" style="width: 100%;" /> </td>
+    <td> <img src="visuals/manoa_actual_vs_forecast.jpeg" style="width: 100%;" /> </td>
   </tr>
 </table>
 
@@ -38,9 +38,24 @@ We trained several RNN variants, including LSTMs, Bidirectional LSTMs, and GRUs,
 
 The best-performing model, identified as the regular LSTM, was then applied to predict the streamflow of Palolo and Makiki Streams using the learned weights from the Mānoa Stream model, demonstrating the transfer learning approach's efficacy.
 
+<table>
+  <tr>
+    <td> <img src="visuals/palolo_transfer_scatterplot.jpeg" style="width: 100%;" /> </td>
+    <td> <img src="visuals/palolo_actual_vs_forecast.jpeg" style="width: 100%;" /> </td>
+  </tr>
+</table>
+
 ## 3. Results
 
 The LSTM model exhibited robust performance in forecasting streamflow discharge, capturing the seasonal variability and peak rainfall events. The application of the model to Palolo and Makiki Streams using transfer learning showed similar predictive accuracy, validating the approach for streams lacking direct discharge data.
+
+## 3.1 Statistical Results
+
+For the Mānoa stream, the model achieved a Test Root Mean Square Error (RMSE) of 0.107 and a coefficient of determination (R\^2) of 0.54. The RMSE value indicates the standard deviation of the residuals (prediction errors). A lower RMSE value indicates a better fit to the data. In this context, an RMSE of 0.107 means that the model's predictions are, on average, approximately 0.107 units away from the actual observed values.
+
+The R\^2 value, also known as the coefficient of determination, measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s). An R\^2 of 0.54 means that 54% of the variability in the streamflow can be explained by our model. This is a moderate level of predictive power.
+
+For the Palolo stream, the model achieved a Test RMSE of 0.145. This higher RMSE value compared to the Mānoa stream indicates that the model's predictions for the Palolo stream are, on average, approximately 0.145 units away from the actual observed values. This suggests that the model's predictions for the Palolo stream are slightly less accurate than for the Mānoa stream.
 
 ## 4. Discussion
 
