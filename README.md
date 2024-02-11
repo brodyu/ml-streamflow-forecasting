@@ -27,9 +27,10 @@ Data for the Mānoa Stream, including streamflow levels and meteorological varia
 
 We trained several RNN variants, including LSTMs, Bidirectional LSTMs, and GRUs, evaluating their performance in forecasting daily streamflow discharge. The training process involved optimizing model parameters on a validation dataset to minimize prediction errors.
 
-![Actual vs. Forecast Scatterplot](visuals/scatter_new.jpeg)
-
-![Actual vs. Forecast](visuals/actual-vs-forecast_new.jpeg)
+<p float="left">
+  <img src="visuals/scatter_new.jpeg" width="50%" />
+  <img src="visuals/actual-vs-forecast_new.jpeg" width="50%" /> 
+</p>
 
 ### 2.3 Transfer Learning Application
 
